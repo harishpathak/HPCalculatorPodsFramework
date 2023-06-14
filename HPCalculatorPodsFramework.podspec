@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HPCalculatorPodsFramework"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A basic cocoapods library in swift."
 
   # This description is used to generate tags and improve search results.
@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "16.0"
+  spec.ios.deployment_target = "15.0"
   spec.swift_versions = "5.2"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
