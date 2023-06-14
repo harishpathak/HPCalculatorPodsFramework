@@ -10,6 +10,11 @@
 		68E513122A39AD1900C74E4B /* HPCalculatorPodsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E513092A39AD1900C74E4B /* HPCalculatorPodsFramework.framework */; };
 		68E513172A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E513162A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests.swift */; };
 		68E513182A39AD1900C74E4B /* HPCalculatorPodsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E5130C2A39AD1900C74E4B /* HPCalculatorPodsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E513282A39AD3300C74E4B /* HPCalculatorPodsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E513272A39AD3300C74E4B /* HPCalculatorPodsExampleApp.swift */; };
+		68E5132A2A39AD3300C74E4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E513292A39AD3300C74E4B /* ContentView.swift */; };
+		68E5132C2A39AD3600C74E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E5132B2A39AD3600C74E4B /* Assets.xcassets */; };
+		68E5132F2A39AD3600C74E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E5132E2A39AD3600C74E4B /* Preview Assets.xcassets */; };
+		68E513342A39AD5200C74E4B /* HPCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E513332A39AD5200C74E4B /* HPCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,12 @@
 		68E5130C2A39AD1900C74E4B /* HPCalculatorPodsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPCalculatorPodsFramework.h; sourceTree = "<group>"; };
 		68E513112A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPCalculatorPodsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E513162A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPCalculatorPodsFrameworkTests.swift; sourceTree = "<group>"; };
+		68E513252A39AD3300C74E4B /* HPCalculatorPodsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPCalculatorPodsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E513272A39AD3300C74E4B /* HPCalculatorPodsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPCalculatorPodsExampleApp.swift; sourceTree = "<group>"; };
+		68E513292A39AD3300C74E4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68E5132B2A39AD3600C74E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68E5132E2A39AD3600C74E4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68E513332A39AD5200C74E4B /* HPCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68E513222A39AD3300C74E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +71,7 @@
 			children = (
 				68E5130B2A39AD1900C74E4B /* HPCalculatorPodsFramework */,
 				68E513152A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests */,
+				68E513262A39AD3300C74E4B /* HPCalculatorPodsExample */,
 				68E5130A2A39AD1900C74E4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +81,7 @@
 			children = (
 				68E513092A39AD1900C74E4B /* HPCalculatorPodsFramework.framework */,
 				68E513112A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests.xctest */,
+				68E513252A39AD3300C74E4B /* HPCalculatorPodsExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				68E5130C2A39AD1900C74E4B /* HPCalculatorPodsFramework.h */,
+				68E513332A39AD5200C74E4B /* HPCalculator.swift */,
 			);
 			path = HPCalculatorPodsFramework;
 			sourceTree = "<group>";
@@ -80,6 +101,25 @@
 				68E513162A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests.swift */,
 			);
 			path = HPCalculatorPodsFrameworkTests;
+			sourceTree = "<group>";
+		};
+		68E513262A39AD3300C74E4B /* HPCalculatorPodsExample */ = {
+			isa = PBXGroup;
+			children = (
+				68E513272A39AD3300C74E4B /* HPCalculatorPodsExampleApp.swift */,
+				68E513292A39AD3300C74E4B /* ContentView.swift */,
+				68E5132B2A39AD3600C74E4B /* Assets.xcassets */,
+				68E5132D2A39AD3600C74E4B /* Preview Content */,
+			);
+			path = HPCalculatorPodsExample;
+			sourceTree = "<group>";
+		};
+		68E5132D2A39AD3600C74E4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68E5132E2A39AD3600C74E4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +172,23 @@
 			productReference = 68E513112A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		68E513242A39AD3300C74E4B /* HPCalculatorPodsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E513302A39AD3600C74E4B /* Build configuration list for PBXNativeTarget "HPCalculatorPodsExample" */;
+			buildPhases = (
+				68E513212A39AD3300C74E4B /* Sources */,
+				68E513222A39AD3300C74E4B /* Frameworks */,
+				68E513232A39AD3300C74E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPCalculatorPodsExample;
+			productName = HPCalculatorPodsExample;
+			productReference = 68E513252A39AD3300C74E4B /* HPCalculatorPodsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -144,8 +201,12 @@
 				TargetAttributes = {
 					68E513082A39AD1900C74E4B = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					68E513102A39AD1900C74E4B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					68E513242A39AD3300C74E4B = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -165,6 +226,7 @@
 			targets = (
 				68E513082A39AD1900C74E4B /* HPCalculatorPodsFramework */,
 				68E513102A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests */,
+				68E513242A39AD3300C74E4B /* HPCalculatorPodsExample */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +246,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68E513232A39AD3300C74E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E5132F2A39AD3600C74E4B /* Preview Assets.xcassets in Resources */,
+				68E5132C2A39AD3600C74E4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -191,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E513342A39AD5200C74E4B /* HPCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +271,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				68E513172A39AD1900C74E4B /* HPCalculatorPodsFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E513212A39AD3300C74E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E5132A2A39AD3300C74E4B /* ContentView.swift in Sources */,
+				68E513282A39AD3300C74E4B /* HPCalculatorPodsExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +417,7 @@
 		68E5131C2A39AD1900C74E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -355,6 +437,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +446,7 @@
 		68E5131D2A39AD1900C74E4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -390,6 +474,7 @@
 		68E5131F2A39AD1900C74E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -405,6 +490,7 @@
 		68E513202A39AD1900C74E4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -412,6 +498,62 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.harry.HPCalculatorPodsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68E513312A39AD3600C74E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HPCalculatorPodsExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.HPCalculatorPodsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E513322A39AD3600C74E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HPCalculatorPodsExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.HPCalculatorPodsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,6 +585,15 @@
 			buildConfigurations = (
 				68E5131F2A39AD1900C74E4B /* Debug */,
 				68E513202A39AD1900C74E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E513302A39AD3600C74E4B /* Build configuration list for PBXNativeTarget "HPCalculatorPodsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E513312A39AD3600C74E4B /* Debug */,
+				68E513322A39AD3600C74E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
